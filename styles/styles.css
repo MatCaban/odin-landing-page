@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+header {
+    background-color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    gap: 40px;
+}
+
+/*header links*/
+
+.header-links a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #E5E7EB;
+}
