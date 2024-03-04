@@ -13,7 +13,7 @@ header {
     font-size: 18px;
     display: flex;
     justify-content: space-around;
-    padding-top: 12px;
+    padding-top: 16px;
 }
 
 .header-logo {
@@ -26,7 +26,7 @@ header {
 .header-links {
     display: flex;
     justify-content: space-between; 
-    gap: 40px;
+    gap: 30px;
 }
 
 /*header links*/
@@ -42,10 +42,10 @@ li {
 
 .hero {
     background-color: #1F2937;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: flex;
-    justify-content: space-evenly
+    justify-content: center;
 
 }
 
@@ -56,11 +56,14 @@ li {
 }
 
 .left-hero {
-    flex-basis: 400px;
+    columns: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+    flex-basis: 500px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .right-hero {
-    flex-basis: 400px;
+    flex-basis: 500px;
 }
