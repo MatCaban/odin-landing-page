@@ -72,7 +72,7 @@ li {
     flex-basis: 500px;
 }
 
-.hero-button {
+button {
     background-color: #3882F6;
     border: none;
     color: #fff;
@@ -150,4 +150,22 @@ li {
     font-weight: bold;
     font-size: 30px;
     padding-top: 20px;
+}
+
+/* call to action */
+
+.callAction-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callAction-banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 50px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
 }
