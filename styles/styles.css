@@ -180,3 +180,16 @@ button {
 .callAction-banner button {
     border: solid 3px #fff;
 }
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+}
